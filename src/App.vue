@@ -1,12 +1,14 @@
 <script>
 import BannerComponent from "./components/BannerComponent.vue";
 import NavbarComponent from "./components/NavbarComponent.vue";
+import HighlightComponent from "./components/HighlightComponent.vue";
 
 export default {
     name: "App",
     components: {
         NavbarComponent,
         BannerComponent,
+        HighlightComponent
     },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
     <NavbarComponent />
     <BannerComponent />
+    <HighlightComponent />
 </template>
 
 <style scoped>
