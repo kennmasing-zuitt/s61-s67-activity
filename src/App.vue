@@ -1,5 +1,6 @@
 <script>
 import NavbarComponent from "./components/NavbarComponent.vue";
+import CoursesPage from "./pages/CoursesPage.vue";
 import HomePage from "./pages/HomePage.vue";
 
 export default {
@@ -7,6 +8,7 @@ export default {
     components: {
         NavbarComponent,
         HomePage,
+        CoursesPage,
     },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
     <NavbarComponent />
     <HomePage />
+    <CoursesPage />
 </template>
 
 <style scoped>
