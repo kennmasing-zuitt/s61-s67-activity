@@ -1,14 +1,20 @@
 <script>
-import BannerComponent from "./components/BannerComponent.vue";
 import NavbarComponent from "./components/NavbarComponent.vue";
 import HighlightComponent from "./components/HighlightComponent.vue";
+
+import HomePage from "./pages/HomePage.vue";
+
 
 export default {
     name: "App",
     components: {
         NavbarComponent,
+
         BannerComponent,
         HighlightComponent
+
+        HomePage,
+
     },
 };
 </script>
@@ -17,6 +23,7 @@ export default {
     <NavbarComponent />
     <BannerComponent />
     <HighlightComponent />
+    <HomePage />
 </template>
 
 <style scoped>
