@@ -1,20 +1,16 @@
 <script>
 import NavbarComponent from "./components/NavbarComponent.vue";
+import BannerComponent from "./components/BannerComponent.vue";
 import HighlightComponent from "./components/HighlightComponent.vue";
-
 import HomePage from "./pages/HomePage.vue";
-
 
 export default {
     name: "App",
     components: {
         NavbarComponent,
-
         BannerComponent,
-        HighlightComponent
-
+        HighlightComponent,
         HomePage,
-
     },
 };
 </script>
